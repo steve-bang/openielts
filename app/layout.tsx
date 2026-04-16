@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://openielts.com"),
+  metadataBase: new URL("https://openielts.org"),
   title: {
     default: "OpenIELTS | Free IELTS Practice & AI Learning Platform",
     template: "%s | OpenIELTS",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "OpenIELTS",
     locale: "en_US",
-    url: "https://openielts.com",
+    url: "https://openielts.org",
     images: [{ url: "/og-default.png", width: 1200, height: 630 }],
   },
   twitter: {

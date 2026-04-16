@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "Expert IELTS tips on Writing Task 2 structure, Band 9 listening strategies, free practice tests, and proven study plans to boost your IELTS score.",
   alternates: {
-    canonical: "https://openielts.com/blog",
+    canonical: "https://openielts.org/blog",
   },
   openGraph: {
     type: "website",
     title: "IELTS Blog — Tips, Strategies & Success Stories",
     description:
       "Expert IELTS tips on Writing Task 2 structure, Band 9 listening strategies, free practice tests, and proven study plans.",
-    url: "https://openielts.com/blog",
+    url: "https://openielts.org/blog",
     images: [{ url: "/og-blog.png", width: 1200, height: 630, alt: "OpenIELTS Blog" }],
   },
   twitter: {

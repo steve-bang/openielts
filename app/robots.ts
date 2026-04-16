@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/dashboard/", "/profile/", "/practice/", "/progress/"],
       },
     ],
-    sitemap: "https://openielts.com/sitemap.xml",
+    sitemap: "https://openielts.org/sitemap.xml",
   };
 }

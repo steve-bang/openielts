@@ -32,7 +32,7 @@ const ARTICLE_CONTENT: Record<string, React.ComponentType> = {
   "ielts-30-day-study-plan": Ielts30DayStudyPlan,
 };
 
-const SITE_URL = "https://openielts.com";
+const SITE_URL = "https://openielts.org";
 
 export async function generateStaticParams() {
   return POSTS.map((post) => ({ slug: post.slug }));
