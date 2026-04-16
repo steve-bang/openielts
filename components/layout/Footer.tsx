@@ -99,8 +99,12 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom */}
-                <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-gray-400 text-sm">
                     <p>&copy; {new Date().getFullYear()} {seoConfig.appName}. All rights reserved.</p>
+                    <div className="flex gap-5">
+                        <Link href="/terms" className="hover:text-[#D32F2F] transition">Terms of Service</Link>
+                        <Link href="/privacy" className="hover:text-[#D32F2F] transition">Privacy Policy</Link>
+                    </div>
                 </div>
             </div>
         </footer>

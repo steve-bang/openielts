@@ -49,5 +49,12 @@ export const FOOTER_NAV: NavigationSection[] = [
       { name: 'API Reference', href: '/api-docs' },
       { name: 'Status', href: '/status', external: true },
     ],
-  }
+  },
+  {
+    title: 'Legal',
+    items: [
+      { name: 'Terms of Service', href: '/terms' },
+      { name: 'Privacy Policy', href: '/privacy' },
+    ],
+  },
 ];
